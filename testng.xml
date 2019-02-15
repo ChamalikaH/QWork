@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<test name="LoginPage">
+		<classes>
+			<class name="com.QWorks.Test.LoginPage" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="PasswordReset">
+		<classes>
+			<class name="com.QWorks.Test.PasswordReset" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

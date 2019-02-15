@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="com.QWorks.Test.LoginPage">
+        <methods>
+          <include name="setup"/>
+          <include name="closeDriver"/>
+          <include name="tearDown"/>
+          <include name="userLogin"/>
+          <include name="chromeBrowser"/>
+        </methods>
+      </class> <!-- com.QWorks.Test.LoginPage -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
